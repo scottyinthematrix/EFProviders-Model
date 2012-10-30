@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{DB5DDCAD-D73D-4768-B539-0B85F6575DC1}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseScripts\CreateTables.sql = DatabaseScripts\CreateTables.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSoft.EFProviders.Web", "Libraries\SmartSoft.EFProviders.Web\SmartSoft.EFProviders.Web.csproj", "{2204E06D-E695-4289-9E75-911003EF2B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSoft.EFProviders.DataLayer", "Libraries\SmartSoft.EFProviders.DataLayer\SmartSoft.EFProviders.DataLayer.csproj", "{205715D2-E7AD-4EAC-92B4-2C77A32B9D43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{205715D2-E7AD-4EAC-92B4-2C77A32B9D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205715D2-E7AD-4EAC-92B4-2C77A32B9D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205715D2-E7AD-4EAC-92B4-2C77A32B9D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205715D2-E7AD-4EAC-92B4-2C77A32B9D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2204E06D-E695-4289-9E75-911003EF2B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2204E06D-E695-4289-9E75-911003EF2B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2204E06D-E695-4289-9E75-911003EF2B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2204E06D-E695-4289-9E75-911003EF2B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
